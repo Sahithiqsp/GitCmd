@@ -6,7 +6,7 @@ Feature:
   Scenario Outline:
 
     When Fill the username <un>
-    And Fill the password <pwd>
+    And Fill the password is <pwd>
     And Click on login
     Then Home Page must Display
     
